@@ -5,9 +5,10 @@ import { AppComponent } from './app.component';
 import { DocumentService } from './document.service';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
+import { RegistrationComponent } from './registration/registration.component';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, RegistrationComponent],
   imports: [BrowserModule, HttpClientModule, FormsModule],
   providers: [DocumentService],
   bootstrap: [AppComponent],
