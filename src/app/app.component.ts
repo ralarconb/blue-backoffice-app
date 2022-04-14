@@ -101,6 +101,9 @@ export class AppComponent implements OnInit {
     if (mode === 'add') {
       button.setAttribute('data-target', '#addDocumentModal');
     }
+    if (mode === 'signup') {
+      button.setAttribute('data-target', '#addDocumentModal');
+    }
     if (mode === 'edit') {
       this.editDocument = entity;
       button.setAttribute('data-target', '#updateDocumentModal');
